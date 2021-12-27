@@ -1,0 +1,9 @@
+1. 將附件檔案副檔名由jar_改為jar(刪除底線)
+2. 至程式botp.war目錄下WEB-INF\lib\
+3. 將附件log4j-core-2.17.0.jar、log4j-api-2.17.0.jar放置該目錄
+4. 將該目錄下log4j-core-2.11.2.jar、log4j-api-2.11.2.jar刪除
+5. 將附件shiro-core-1.3.2.jar、shiro-web-1.3.2.jar放置該目錄
+6. 將該目錄下shiro-core-1.3.0.jar、shiro-web-1.3.0.jar刪除
+7. 停止jboss服務
+8. 將更新後botp.war佈署至jboss
+9. 啟動jboss服務
